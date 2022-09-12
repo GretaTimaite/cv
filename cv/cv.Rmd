@@ -1,0 +1,108 @@
+---
+name: Greta
+surname: Timaite
+position: "PhD Student"
+phone: 07312324490
+www: gretatimaite.netlify.com
+email: "gretatimaite@protonmail.com"
+twitter: GTimaite
+github: GretaTimaite
+linkedin: gretatimaite
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+# About me
+
+I am an incoming PhD student in Interdisciplinary Methodologies, who is passionate about bridging data science and social sciences. I believe that (basic) data science skills are empowering. Thus, through my personal story I aim to demonstrate that programming can be learnt even by those who do not perceive themselves as math- or tech-savvy.
+
+# Work experience
+
+```{r}
+tribble(
+  ~Position, ~Year, ~Institution, ~Where, ~Details,
+ "University of Leeds, Leeds Institute for Data Analytics", "2021-2022",  "Data Scientist", "Leeds, UK", c("Worked on two 6-month data science projects",  "Responsible for project delivery, including data cleaning, analysis, and visualisation using R", "Communicated project impact through presentations at national (GISRUK 2022, Modelling World 2022) and international conferences (State of the Map 2022)", "Wrote an introductory vignette on OpenStreetMap which is currently included in the Geospatial Data Science module", "OpenInfra project was shortlisted for Leeds Digital Festival Sustainability Award")
+) |>  
+  detailed_entries(Position, Year, Institution, Where, Details)
+```
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "MSc in Big Data and Digital Futures", "2020-2021", "University of Warwick", "Coventry, UK",
+  "BA in Sociology", "2017-2020", "University of Warwick", "Coventry, UK",
+) |>  
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Teaching experience
+
+```{r}
+tribble(
+  ~Course, ~ Year, ~ Where,
+   "State of the Map Conference 2022, Florence, Italy", "2022", "OSM for sustainable transport planning: getting started (Co-lead, workshop)",
+  "UK (online)", "2021", "Propensity to Cycle Tool Advanced Training Workshop (Teaching assistant)"
+) |> 
+  detailed_entries(Course, Year, Where)
+```
+
+# Peer-reviewed publications
+
+```{r}
+vitae::bibliography_entries("/Users/gretatimaite/Desktop/cv/my_peer.bib") 
+```
+
+# Skills
+
+```{r}
+# skills <- tibble::tribble(
+#   ~ p_language, ~ details,  
+#      "R and RStudio", c("Base R", "Tidyverse", "sf", "RMarkdown/Quarto"),
+#   "GitHub", c("GH Actions", "GH Pull Requests", "Reproducible code")
+#   )
+# skills |> 
+#   vitae::detailed_entries(what = p_language, why = details)
+```
+
+```{r}
+skills <- tibble::tribble(
+  ~ p_language, ~ details,  
+  "Exploratory data analysis in R", c("Base R", "Tidyverse (dplyr, readr, stringr)"),
+  "Spatial Analysis in R", c("sf"),
+  "Visualisation in R", c("ggplot2", "tmap", "mapview"),
+  "Reproducible code and documentation", c("RMarkdown", "Quarto"),
+  "GitHub", c("GH Actions", "GH Pages")
+  )
+skills |> 
+  vitae::detailed_entries(what = p_language, why = details)
+```
+
+# Awards and Bursaries
+
+```{r}
+awards <- tibble::tribble(
+  ~ Award, ~ Year,  
+  "Leeds Digital Festival Sustainability Award (Shortlisted)", "2022",
+  "Best Dissertation in the programme 2020-2021 Award", "2021",
+  "CIM Bursary Recipient", "2021",
+  "Short-Term Mobility Bursary", "2021"
+  )
+awards |> 
+  vitae::detailed_entries(what = Award, when = Year)
+```
+
+
+
+
+
+
