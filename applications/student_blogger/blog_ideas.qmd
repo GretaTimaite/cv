@@ -1,0 +1,31 @@
+---
+title: "3 blog post ideas"
+format: html
+---
+
+##### Idea 1
+
+Title: You can learn programming: 3 more tips
+
+Content: This blog post would build on the first one (see sample blog post). Here I would give three more practical tips, such as:
+
+1. Search for scholarships. For example, some online data science platforms, such as Dataquest, offer scholarships which provide free access to all material for a given period of time.
+2. Take advantage of open code. This is meant to link to my blog post Idea 2.
+3. Share your journey and small wins. Sharing one's journey on social media can increase accountability, create a network of supporters (who will cherish your small wins with you!), and improve communication skills.
+
+##### Idea 2
+
+Title: Benefiting from open research as a student
+
+Content: This blog post would discuss how students can take advantage of science becoming more open. I would define the concept of open science and how open source software and data contributes to making research more transparent and reproducible. Finally, I would discuss how students can use them to become better at what they do by inspecting source code on [GitHub](https://github.com).
+
+##### Idea 3
+
+Title: Why and how work experience can make you a better student
+
+Content: This blog post would consist of two parts. In part one I would share my experiences of working (outside of campus) an an undergraduate student and how it shaped my approach to studying (better time management, meeting people outside of my course and university, better understanding of British culture). In part two I would discuss how working for a year before embarking on the PhD journey helped me improve (research) project management skills and understand what I want from a PhD.
+
+
+
+
+
