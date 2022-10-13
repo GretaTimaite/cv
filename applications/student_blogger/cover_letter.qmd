@@ -7,6 +7,6 @@ I am a master's student in social science research pursuing a PhD who also wants
 
 For example, I wrote a [blog post](https://gretatimaite.netlify.app/publication/networking_lida/) for Leeds Institute for Data Analytics sharing my experiences of partnership building as an early career researcher and data scientist. I also wrote a more [technical blog post](https://gretatimaite.netlify.app/publication/rstudio_for_blogging/) for building a personal website, which was published on Dataquest Direct for aspiring data scientists. Both blog posts are of contrasting topics and underwent different levels of editorial scrutiny, which taught me tailoring my message for an audience.
 
-I believe that being a Student Blogger will provide me a platform to share my experience and knowledge with those to whom it might be eye-opening, encouraging, and important. Thus, I cannot wait to discuss with you how we could achieve this together.
+I believe that being a Student Blogger will provide me with a platform to share my experience and knowledge and get in touch with those to whom it might be eye-opening, encouraging, and important. Thus, I cannot wait to discuss with you how we could achieve this together.
 
 

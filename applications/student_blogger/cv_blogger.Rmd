@@ -1,0 +1,78 @@
+---
+output: stevetemplates::cv
+geometry: margin=1in
+
+title: "CV"
+author: Greta Timaite
+
+jobtitle: "ESRC-funded PGT Student"
+# address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
+fontawesome: yes
+email: "g.timaite@warwick.ac.uk"
+web: gretatimaite.netlify.com
+twitter: GTimaite
+github: GretaTimaite
+# linkedin: gretatimaite
+#osf: "Enter 5 digit osf string here"
+
+updated: FALSE
+# rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+# About me
+
+I am an ESCR-funded PGT student at CIM, University of Warwick. Besides wanting to learn as much about AI, computational social science methods, and interdisciplinary research, I am also an avid supporter of people who want to learn programming.
+
+# Education
+
+2022-ongoing MA Social Science Research, University of Warwick, Coventry, UK
+
+2020-2021 MSc Big Data and Digital Futures, University of Warwick, Coventry, UK
+
+2017-2020 BA Sociology, University of Warwick, Coventry, UK
+
+# Work experience
+
+Data Scientist, University of Leeds, Leeds Institute for Data Analytics (2021 Sept‑2022 Sept)
+
+- Worked on two 6‑month data science projects; 
+- Responsible for project delivery, including data cleaning, analysis, and visualisation using R; 
+- Communicated project impact through presentations at national (GISRUK 2022, Modelling World 2022) and international conferences (State of the Map 2022);
+- Wrote an introductory vignette on OpenStreetMap which is currently included in the [Geospatial Data Science module](https://github.com/mszell/geospatialdatascience) at IT University of Copenhagen; 
+
+
+# Selected publications
+
+Greta Timaite, James Hulse, Robin Lovelace. OSM for sustainable transport planning. Proceedings of the Academic Track at State of the Map 2022, 2022.
+
+Greta Timaite. Networking and Partnership Building: an Intern’s Perspective. LIDA and CDRC websites, 2022.
+
+Greta Timaite. Using RStudio to build a blog/website? My tips. Dataquest Direct, 2021.
+
+# Awards and Bursaries
+
+ESRC Doctoral Training Studentship (2022)
+
+Leeds Digital Festival Sustainability Award (Shortlisted) (2022)
+
+Best Dissertation in the programme 2020-2021 Award (2021)
+
+CIM Bursary Recipient (2021)
+
+Short-Term Mobility Bursary (2021)
+
